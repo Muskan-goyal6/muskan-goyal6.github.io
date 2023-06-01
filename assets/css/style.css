@@ -50,14 +50,19 @@
   margin: 4px;
 }
 
-.google-scholar {
-  color: #DB4A39;
-}
 
 /* Adjust the color as needed to match your website's design */
 
 .github {
   color: black;
+}
+
+.google-scholar {
+  color: black;
+}
+
+.gmail {
+  color: #D44638;
 }
 
 .linkedin {
@@ -79,6 +84,14 @@
 
 .angellist:hover {
   background-color: grey;
+}
+
+.gmail: hover {
+  background-color: black;
+}
+
+.google-scholar:hover {
+  background-color: black;
 }
 
 .github:hover {
