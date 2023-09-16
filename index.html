@@ -305,10 +305,11 @@
         </p>
         <p>
           <ul>
-            <li><b>Languages:</b> Java, Python, SQL, HTML/CSS</li>
+            <li><b>Languages:</b> Java, Python, SQL, HTML/CSS, Javascript, C/C++</li>
             <li><b>Databases:</b> MySQL, PostgreSQL</li>
             <li><b>Libraries:</b> NumPy, Pandas, OpenCV, Matplotlib, SciKit, Spacy, NLTK, Hugging Face transformers & datasets</li>
             <li><b>Frameworks:</b> Vue.js, Keras, TensorFlow, PyTorch</li>
+            <li><b>Cloud Services:</b> AWS (EC2, S3, RDS, Lambda)</li>
             <li><b>Tools & Technologies:</b> Git, AWS, Heroku, JIRA, Excel, Tableau, Google Data Studio</li>
           </ul>
           
@@ -341,7 +342,37 @@
       <h3 class="page-title white-text teal">Experience</h3>
       <div class="container">
 
-        <!-- Latest Experience -->
+      	        <!-- Latest Experience -->
+        <div class="card">
+          <div class="card-content">
+            <div class="row">
+              <div class="col s12 m2">
+                <a href="https://www.arbol.io/" target="_blank"><img alt="Arbol logo"
+                    src="/assets/img/arbol-logo.png" class="responsive-img center-block" /></a>
+              </div>
+              <!-- <div class="col s12 m10"> -->
+              <div class="col s12 m10">
+                <p>
+                  <span class="card-title"><a href="https://www.arbol.io/" target="_blank"
+                      class="teal-text hoverline">Arbol</a></span>
+                </p>
+              </div>
+            </div>
+            <div class="role brown-text text-darken-2">Machine Learning Intern</div>
+            <ul>
+				<li>Deployed Google Dynamic World model and Google earth model on Sentinel-2 dataset for improved classification of forest, land, and water, as compared to our existing model. Used Python libraries including geemap, rasterio, and google earth engine to facilitate the implementation.</li>
+				<li>Partitioned and downloaded the resulted Sentinel tiles in sections of 256x256 pixels. Then, reconstructed the downloaded parts into a singular tile to enable visualization with QGIS effectively.</li>
+				<li>Developed a comprehensive modular function in TensorFlow that accepts a Sentinel-1 ID as input and provides a corresponding Dynamic World TIF file with pixel-level alignment to the Sentinel-2 tile. Reduced manual intervention and streamlined the workflow by up to 80%.</li>
+				<li>Currently, building GANs for SAR to optical image transformation and SAR image denoising in PyTorch.</li>
+                <b>Tools:</b> Python, Pytorch
+              </li>
+            </ul>
+          </div>
+          <div class="card-action">
+            <span>July 2023 - Present | NY, USA</span>
+          </div>
+        </div>
+
         <div class="card">
           <div class="card-content">
             <div class="row">
@@ -747,6 +778,43 @@
                   <a aria-label="Visit the GitHub repo for  project"
                     href="https://public.tableau.com/app/profile/muskan.goyal2691/viz/FDI_Case_Study_16728869513670/FDI_Case_Study" target="_blank"
                     data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  trip planner" src="/assets/img/trip_planner.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Budget-Based Recommendation System<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Engineered a Single Page Application using Vue.js
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title brown-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Engineered a SPA using Vue.js, integrating with 3+ services like S3, Weather API, and GoogleMapsAPI.</li>
+                  <li>Implemented 7+ unique features, including user based tailored activity suggestions, itinerary planning, and real-time metrics related to trip. </li>
+                  <li>Deployed with a CI/CD pipeline via GitHub actions.</li>
+
+                </ul>
+                <div class="card-action">
+                   <a aria-label="Visit Blog website" href="https://docs.google.com/presentation/d/1YIE7ypFqDnktuaZZv0BEAVhYsqNEED70/edit#slide=id.p1" target="_blank" 
+                   data-position="top"data-tooltip="View Online"
+                   class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                    class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/Big-Data-Architecture-Code-Base/BDAP-Frontend"
+                    target="_blank" data-position="top" data-tooltip="View Source"
                     class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
                       class="fa fa-github"></i></a>
                 </div>
